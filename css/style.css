@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+body{
+    background: rgb(43,43,117);
+    background: linear-gradient(90deg, rgba(43,43,117,1) 0%, rgba(0,212,255,1) 49%, rgba(2,0,36,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title{
+    background-color: blueviolet;
+    width: 416px;
+    color: aliceblue;
+}   
+
+
+
+.container{
+  border:2px solid blueviolet;
+  padding: 30px 40px;
+  width: 40%;
+  min-width: 500px;
+}
+
+.tasks-container{
+    background-color: aliceblue;
+    border: 30px 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+    box-shadow: 0 15px 30px rgb(0, 0, 0);
+    width: 100%;
+
+
+}
+
+.new-task-container{
+    background-color: aliceblue;
+    padding: 30px 20px;
+    border-radius:5px ;
+    box-shadow: 0 15px 30px rgb(0, 0, 0) ;
+    display: flex;
+}
+
+.new-task-container input{
+    flex: 3;
+    font-size: 1rem;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 500;
+}
+
+.ne
+
+.new-task-button{
+    flex: 1;
+    border-radius: 5px;
+    font-weight:500 ;
+    height: 100%;
+    font-size:1rem ;
+    border: none;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding:12px ;
+    margin-left:12px ;
+    cursor: pointer;
+
+}
